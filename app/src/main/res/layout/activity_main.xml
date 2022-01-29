@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/Edit1"
         android:layout_weight="1"
-        android:layout_margin="10dp"
+        android:layout_margin="6dp"
         android:hint="숫자1" />
 
     <EditText
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/Edit2"
         android:layout_weight="1"
-        android:layout_margin="10dp"
+        android:layout_margin="6dp"
         android:hint="숫자2" />
 
     <Button
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/BtnAdd"
         android:layout_weight="1"
-        android:layout_margin="10dp"
+        android:layout_margin="6dp"
         android:text="더하기" />
 
     <Button
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/BtnSub"
         android:layout_weight="1"
-        android:layout_margin="10dp"
+        android:layout_margin="6dp"
         android:text="빼기" />
 
     <Button
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/BtnMul"
         android:layout_weight="1"
-        android:layout_margin="10dp"
+        android:layout_margin="6dp"
         android:text="곱하기" />
 
     <Button
@@ -50,8 +50,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/BtnDiv"
         android:layout_weight="1"
-        android:layout_margin="10dp"
+        android:layout_margin="6dp"
         android:text="나누기" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnRem"
+        android:layout_weight="1"
+        android:layout_margin="6dp"
+        android:text="나머지 값" />
 
     <TextView
         android:layout_width="wrap_content"
